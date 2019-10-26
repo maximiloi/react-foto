@@ -6,7 +6,7 @@ export default class Pallete extends Component {
   instaService = new InstaService();
   state = {
     error: false,
-    phoros: []
+    photos: []
   }
 
   componentDidMount() {
